@@ -3,5 +3,19 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "192.168.18.137",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "ecmwiki",
+            "database": "ecmwiki",
+            "username": "ecmwiki"
+        }
     ]
 }
